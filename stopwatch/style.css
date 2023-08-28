@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+body{
+    background-color:rgb(177, 154, 223);
+}
+.container{
+    margin-top: 250px;
+    width: 90%;
+    max-width: 600px;
+    background-image: linear-gradient(rgba(34, 33, 33, 0.5),rgba(55, 53, 53, 0.5)),url(images/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 0;
+    color: aliceblue;
+    margin: 200px auto 0;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.60) ;
+}
+h1{
+    font-size: 60px;
+}
+
+.buttons img{
+    padding-top: 10px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.buttons img:nth-child(2){
+    margin-top: 30px;
+    height: 60px;
+    width: 60px;
+}
+img:hover{
+    transform: translateY(-2px);
+}
